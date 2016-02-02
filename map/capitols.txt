@@ -1,0 +1,6 @@
+United Kingdom (1865,475)
+Germany (2470,667)
+Southern Italy (2365,1305)
+Eastern United States (715,655)
+France (2140,825)
+Russia (3340,470)
