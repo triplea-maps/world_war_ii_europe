@@ -1,0 +1,5 @@
+map_name: world_war_ii_europe
+games:
+- {game_name: World War II Europe 1940 Original, file_name: ww2eur40.xml}
+- {game_name: World War II Europe 1940 2nd Edition, file_name: ww2eur40_2nd_edition.xml}
+- {game_name: WWII Europe 1940 Original SeaLion-Balanced, file_name: ww2eur40_veqryn_balanced.xml}
