@@ -1467,7 +1467,7 @@
     <attachment name="unitAttachment" attachTo="infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
       <option name="transportCost" value="2"/>
-      <option name="isInfantry" value="true"/>
+      <option name="isLandTransportable" value="true"/>
       <option name="attack" value="1"/>
       <option name="defense" value="2"/>
       <!--<option name="artillerySupportable" value="true"/>-->
