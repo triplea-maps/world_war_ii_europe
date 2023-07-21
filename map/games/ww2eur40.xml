@@ -1317,7 +1317,7 @@
     <attachment name="unitAttachment" attachTo="infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
       <option name="movement" value="1"/>
       <option name="transportCost" value="2"/>
-      <option name="isInfantry" value="true"/>
+      <option name="isLandTransportable" value="true"/>
       <option name="attack" value="1"/>
       <option name="defense" value="2"/>
       <option name="artillerySupportable" value="true"/>
@@ -2351,7 +2351,7 @@
       <option name="when" value="after:germansBattle"/>
       <option name="players" value="French"/>
       <option name="playerAttachmentName" value="RulesAttachment" count="conditionAttachment_French_1_Liberation"/>
-      <option name="playerProperty" value="turns" count="1-+"/>
+      <option name="playerProperty" value="rounds" count="1-+"/>
     </attachment>
     <attachment name="triggerAttachment_Italians_Conquer_France" attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachment_French_1_Lose_France"/>
@@ -2359,7 +2359,7 @@
       <option name="when" value="after:italiansBattle"/>
       <option name="players" value="French"/>
       <option name="playerAttachmentName" value="RulesAttachment" count="conditionAttachment_French_1_Liberation"/>
-      <option name="playerProperty" value="turns" count="1-+"/>
+      <option name="playerProperty" value="rounds" count="1-+"/>
     </attachment>
     <attachment name="triggerAttachment_French_1_Liberation_By_British" attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachment_French_1_Liberation"/>
